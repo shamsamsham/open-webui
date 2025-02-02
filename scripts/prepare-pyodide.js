@@ -10,6 +10,7 @@ const packages = [
 	'scipy',
 	'regex',
 	'seaborn'
+	'midiutil'
 ];
 
 import { loadPyodide } from 'pyodide';
