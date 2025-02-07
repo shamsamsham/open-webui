@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 # Increase Node.JS memory limit
-ENV NODE_OPTIONS=--max-old-space-size=8192
+ENV NODE_OPTIONS=--max-old-space-size=16384
 # Initialize device type args
 # use build args in the docker build command with --build-arg="BUILDARG=true"
 ARG USE_CUDA=false
